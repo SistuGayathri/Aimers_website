@@ -1,0 +1,113 @@
+body {
+    font-family: #0056b3, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("Background.jpeg");
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0056b3;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.paper-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.paper-item {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent background */
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px); /* Adds blur effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 0;
+}
+
+.paper-title {
+    margin: 0;
+    text-align: center;
+    color: #dddddd;
+}
+
+.paper-author {
+    font-style: italic;
+    font-size: 20px;
+    color: #dddddd;
+}
+
+.paper-publication {
+    font-style: italic;
+    font-size: 20px;
+    color: #dddddd
+}
+
+.paper-abstract {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #dddddd
+}
+
+.paper-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0056b3;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.paper-link:hover {
+    background: #45a049;
+}
+
+.search-container {
+    text-align: center; /* Center the search bar */
+    margin-bottom: 20px; /* Space below the search bar */
+}
+
+.search-input {
+    padding: 10px; /* Space inside the input */
+    width: 300px; /* Width of the search input */
+    border: 1px solid #0056b3; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.search-button {
+    padding: 10px 15px; /* Space inside the button */
+    background-color: #0056b3; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size */
+    margin-left: 10px; /* Space between input and button */
+    margin: 10px 20px;
+}
+
+.search-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
